@@ -1,7 +1,4 @@
 {
-  "lib/foundry-era-contracts": {
-    "rev": "3f99de4a37b126c5cb0466067f37be0c932167b2"
-  },
   "lib/forge-std": {
     "rev": "77041d2ce690e692d6e03cc812b57d1ddaa4d505"
   },
@@ -13,5 +10,8 @@
       "name": "v5.4.0",
       "rev": "c64a1edb67b6e3f4a15cca8909c9482ad33a02b0"
     }
+  },
+  "lib/foundry-era-contracts": {
+    "rev": "3f99de4a37b126c5cb0466067f37be0c932167b2"
   }
 }
