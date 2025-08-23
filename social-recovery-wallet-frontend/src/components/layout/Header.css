@@ -1,0 +1,54 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
+  background-color: white;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.account-info {
+  background: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #333;
+}
+
+.connect-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.connect-button:hover {
+  background: #0056b3;
+}
+
+.connect-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.wallet-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.balance {
+  font-size: 12px;
+  color: #666;
+}
