@@ -9,12 +9,7 @@ A decentralized wallet that enables secure account recovery via trusted guardian
 - [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
