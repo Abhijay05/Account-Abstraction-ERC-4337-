@@ -38,6 +38,4 @@ This project implements a social recovery wallet empowering users to regain wall
 
 ---
 
-\
-Clone the repo:
 
