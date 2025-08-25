@@ -1,66 +1,48 @@
-## Foundry
+# Social Recovery Wallet with Account Abstraction
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A decentralized wallet that enables secure account recovery via trusted guardians using Ethereum's Account Abstraction (ERC-4337).
 
-Foundry consists of:
+---
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Table of Contents
 
-## Documentation
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
-https://book.getfoundry.sh/
+---
 
-## Usage
+## About
 
-### Build
+This project implements a social recovery wallet empowering users to regain wallet access through trusted guardians without relying on centralized custodians. Leveraging Account Abstraction (ERC-4337), it enables gasless transactions and flexible validation logic.
 
-```shell
-$ forge build
-```
+---
 
-### Test
+## Features
 
-```shell
-$ forge test
-```
+- Social recovery through guardian consensus  
+- Time-delayed recovery execution for added security  
+- Account Abstraction for smart transaction validation  
+- React frontend to manage guardians and recovery process  
+- Deployment on zkSync Era Sepolia for scalability
 
-### Format
+---
 
-```shell
-$ forge fmt
-```
+## Tech Stack
 
-### Gas Snapshots
+- Solidity (Smart contracts)  
+- Foundry & Hardhat (Development & testing)  
+- React & ethers.js (Frontend)  
+- zkSync Era (Blockchain network)  
 
-```shell
-$ forge snapshot
-```
+---
 
-### Anvil
+\
+Clone the repo:
 
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
